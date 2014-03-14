@@ -100,7 +100,7 @@ public class VarastoTest {
         varasto.lisaaVarastoon(5);
         double otettu = varasto.otaVarastosta(10);
 
-        assertEquals(6.0, otettu, vertailuTarkkuus);
+        assertEquals(5.0, otettu, vertailuTarkkuus);
     }
 
     @Test
